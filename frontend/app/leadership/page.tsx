@@ -28,7 +28,7 @@ const coFounderInfo = {
 const leadershipPhilosophy = `At Sole-Tech, we believe that great technology is built by great teams. Our leadership philosophy centers on empowering engineers through creative collaboration.`;
 
 function LeaderProfile({ name, role, summary, skills, experience, imageRight = false }: typeof founderInfo & { imageRight?: boolean }) {
-  const imageSrc = name === "Suleman Sehar" ? "/images/team/founder.png" : "/images/team/co-founder.png";
+  const imageSrc = name === "Suleman Sehar" ? "/images/team/Founder.png" : "/images/team/co-founder.png";
 
   const socialLinks = name === "Suleman Sehar"
     ? [
