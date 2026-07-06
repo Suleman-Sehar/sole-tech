@@ -12,6 +12,8 @@ origins = [
     "http://localhost:8000",
     "https://sole-tech.ai",
     "https://www.sole-tech.ai",
+    "https://frontend-jn7t376lb-suleman-sehars-projects.vercel.app",
+    "https://frontend-eight-fawn-70.vercel.app",
 ]
 
 app.add_middleware(
